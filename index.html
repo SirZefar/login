@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+      <form class="form_login" action="registro.php">
+        <div class="container">
+            <img class="responsive" src="assets/img/banner_ciudad.jpg" alt="imagen de ciudad" />
+        </div>
+          <div class="row">
+              <h1 class="title">Registro de Usuarios</h1>
+          </div>
+        <div class="row">
+            <div class="inputsCont">
+                <label class="label-title" for="">Nombre</label>
+                <input class="input-form-text" type="text" />
+              </div>
+              <div class="inputsCont">
+                  <label class="label-title" for="">Birhdate</label>
+                  <input type="date" class="input-form-date" />
+                  <label class="label-title" for="">Gender</label>
+                  <select class="input-form-select" name="select_gender" id="select_gender">
+                      <option value="M">Masculino</option>
+                      <option value="F">Femenino</option>
+                  </select>
+              </div>
+              <div class="inputsCont">
+                  <label class="label-title" for="email">Email</label>
+                  <input class="input-form-text" type="email">
+              </div>
+              <div class="inputsCont">
+                  <label class="label-title" for="">Password</label>
+                  <input class="input-form-text" type="password">
+              </div>
+        </div>
+        <div class="row">
+            <button class="btn btn-success" type="submit">registrar</button>
+        </div>
+      </form>
+  </body>
+</html>

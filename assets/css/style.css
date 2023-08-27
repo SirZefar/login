@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2776ae;
+}
+
+.responsive {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.title{
+    font-size: 2.3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.label-title{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-form-text {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: grey 1px solid;
+    width: 404px;
+}
+
+.input-form-text:focus{
+    outline: none;
+}
+
+.input-form-date{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-bottom:grey 1px solid ;
+    background-color: transparent;
+    width: 160px;
+    margin-right: 20px;
+}
+
+.input-form-date:focus{
+    outline: none;
+}
+
+.input-form-select{
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom:grey 1px solid ;
+    width: 160px;
+}
+
+.input-form-select:focus{
+    outline: none;
+}
+
+.inputsCont{
+    margin-bottom: 30px;
+}
+
+button.btn{
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
+    border: none;
+}
+
+button.btn:hover{
+    cursor: pointer;
+}
+
+button.btn.btn-success{
+    background-color: #0b8b0b;
+    color: aliceblue;
+}
+
+.form_login{
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 720px;
+    width: 700px;
+    box-shadow: 0px 10px 30px 30px rgba(0, 0, 0, 0.3);
+}
+
+.row {
+    display: grid;
+    place-items: center;
+}
